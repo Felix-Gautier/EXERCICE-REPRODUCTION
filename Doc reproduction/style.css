@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+header{
+    background-color: #FFE3D4;
+}
+
+.navbar{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar-part1{
+    font-size: 25px;
+}
+
+.nav-bar-part1 a{
+    color: black;
+    font-size: 18px;
+}
+
+.nav-bar-part1 p{
+    font-size: 30px;
+    margin-left: 11px;
+}
+
+.write-bold{
+    font-weight: bold;
+}
+
+.nav-bar-part2 p{
+    font-size: 30px;
+}
+
+.nav-bar-part2 span{
+    font-size: 15px;
+    position: absolute;
+}
+
+.content{
+    border: 1px solid #f3f3f3;
+    width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    display: flex;
+}
+
+.img-profil{
+    width: 10%;
+}
+
+.img-profil img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+.principal{
+    width: 900px;
+}
+
+.tit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tit p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.icon{
+    display: flex;
+    align-self: center;
+    margin-top: 5px;
+}
+
+.icon img{
+    margin: 0 2px;
+}
+
+.icon p{
+    font-size: 12px;
+    padding: 0 5px;
+    font-weight: bold;
+    color: gray;
+}
+
+.icon span{
+    padding: 5px 5px;
+    font-size: 15px;
+}
+
+.textpart{
+    padding: 20px 0;
+    width: 650px;
+}
+
+.prg-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.prg-cmt{
+    font-size: 25px;
+    color: gray;
+}
+
+.foot-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-icon p{
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+}
